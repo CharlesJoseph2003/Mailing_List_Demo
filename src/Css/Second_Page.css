@@ -75,6 +75,8 @@
   padding: 10px;
   box-sizing: border-box; /* Includes padding in the width calculation */
   min-height: 220px; 
+  /* width: auto; Allow the width to be determined by the content */
+  /* height: auto */
 }
 
 .image-container img {
@@ -133,6 +135,7 @@
 
   .rectangle-container {
     top: 0rem; /* Adjust as needed */
+
     
     /* align-items: center; */
     /* bottom: -150vh; Adjust as needed */
@@ -168,7 +171,75 @@
   }
 
   .image-container {
-    width: 50%; /* Full width on small devices */
+    width: 40%; /* Full width on small devices */
+  }
+
+
+  .image-text {
+    font-size: 12px; /* Adjust as needed */
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .second-page-title-container {
+    top: 1.75rem; /* Adjust top positioning */
+  }
+
+  .second-page-title {
+    font-size: 2rem; /* Adjust font size */
+  }
+
+  .second-page-text-container {
+    top:1.5rem; /* Adjust top positioning */
+  }
+
+  .second-page-text {
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .rectangle-container {
+    top: 0rem; /* Adjust as needed */
+  }
+
+  .image-container {
+    width: 44%; /* Full width on small devices */
+  }
+
+  .image-text {
+    font-size: 12px; /* Adjust as needed */
+  }
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .second-page-title-container {
+    top: 1.75rem; /* Adjust top positioning */
+  }
+
+  .second-page-title {
+    font-size: 2rem; /* Adjust font size */
+  }
+
+  .second-page-text-container {
+    top:1.5rem; /* Adjust top positioning */
+  }
+
+  .second-page-text {
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .rectangle-container {
+    top: 0rem; /* Adjust as needed */
+  }
+
+  .image-container {
+    width: 44%; /* Full width on small devices */
+  }
+
+  .image-text-container{
+    flex-direction: row;
+
   }
 
   .image-text {

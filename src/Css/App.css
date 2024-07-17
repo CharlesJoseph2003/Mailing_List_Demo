@@ -13,6 +13,34 @@ body, html {
 
 }
 
+
+@media (min-width: 601px) and (max-width: 768px)
+{
+  body, html{
+    height:150%
+  }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 992px)
+{
+  body, html{
+    height:150%
+  }
+
+}
+
+
+
+@media (min-width: 993px) and (max-width: 1200px)
+{
+  body, html{
+    height:150%
+  }
+
+}
+
 .background-wrapper {
   position: relative;
   min-height: 100vh; /* Ensure it covers the full viewport height */

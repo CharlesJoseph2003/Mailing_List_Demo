@@ -29,11 +29,15 @@ nav {
     cursor: pointer;
     font-weight: 600;
     transition: 0.2s;
+    min-width: 20px;
+    /* width: auto; Allow the width to be determined by the content */
   }
   
   .primary-button:hover {
     background-color: rgb(224, 255, 153);
   }
+
+
   
   @media (max-width: 1000px) {
     .navbar-links-container a {
