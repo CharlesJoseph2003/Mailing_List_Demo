@@ -1,8 +1,16 @@
 body, html {
   margin: 0;
   padding: 0;
-  height: 160%;
+  height: 145%;
   overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+@media (max-width: 600px)
+{
+  body, html{
+    height:165%
+  }
+
 }
 
 .background-wrapper {
