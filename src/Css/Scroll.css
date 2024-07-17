@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a#scroll-btn {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 3em solid transparent;
+  border-right: 3em solid transparent;
+  border-top: 2em solid #ffffff; /* Adjust the size and color */
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 4.5em; /* Adjusted bottom position */
+}
+
+@keyframes move-down {
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(1.5em); /* Adjusted translation */
+    opacity: 0;
+  }
+}
+
+a#scroll-btn:after {
+  position: absolute;
+  content: "Learn More";
+  width: 100px; /* Ensure container is wide enough */
+  display: block;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 3em; /* Adjusted bottom position for above the triangle */
+  font-size: 0.9em; /* Reduced font size */
+  color: #ffffff;
+  letter-spacing: 1.2px; /* Adjusted letter spacing */
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media (max-width: 1000px) {
+  a#scroll-btn {
+    border-left: 2.5em solid transparent;
+    border-right: 2.5em solid transparent;
+    border-top: 1.5em solid #ffffff;
+    bottom: 4em; /* Adjusted bottom position */
+  }
+
+  a#scroll-btn:after {
+    font-size: 0.8em; /* Adjust font size */
+    bottom: 2.5em; /* Adjusted bottom position */
+  }
+}
+
+@media (max-width: 600px) {
+  a#scroll-btn {
+    display: none; /* Move the button down further */
+  }
+
+  a#scroll-btn:after {
+    display: none; /* Move the text down further */
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

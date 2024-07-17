@@ -1,0 +1,127 @@
+.big-text-container {
+    text-align: center;
+    margin-top: 1rem; /* Reduced value to move the text higher */
+    position: relative;
+    z-index: 2;
+  }
+  
+  .main-heading {
+    font-size: 4.5rem; /* Adjust as needed */
+    color: #ffffff; /* Adjust the color as needed */
+    font-weight: 700; /* Bold text */
+    margin-bottom: 0.2rem; /* Space between headings */
+  }
+  
+  /* Sub Heading Style */
+  .sub-heading {
+    font-size: 4.5rem; /* Adjust as needed */
+    color: #ffffff; /* Adjust the color as needed */
+    font-weight: 700; /* Bold text */
+    margin-bottom: 0.5rem; /* Reduced value to decrease space */
+  }
+  
+  .mission-statement-container {
+    text-align: center;
+    margin: 0.5rem auto; /* Adjust as needed to move it lower */
+    max-width: 800px; /* Optional: to limit the width of the text block */
+    padding: 1rem; /* Optional: to add some padding around the text */
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Styling for the mission statement text */
+  .mission-statement {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    font-weight: 400; /* Normal font weight */
+    color: #ffffff; /* Adjust the color as needed */
+    line-height: 1.5; /* Adjust the line height for readability */
+  }
+  
+  .ellipses-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem; /* Adjust this value to move the container higher or lower */
+    position: relative;
+    z-index: 2;
+  }
+  
+  .ellipse {
+    width: 12px; /* Adjust size as needed */
+    height: 12px; /* Adjust size as needed */
+    margin: 0 8px; /* Adjust spacing as needed */
+  }
+  
+  .launching-soon {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    color: #CFD850; /* Adjust color as needed */
+    font-weight: 400; /* Normal font weight */
+    margin: 0 10px; /* Adjust spacing as needed */
+    font-style: italic;
+  }
+  
+
+  
+@media (max-width: 800px) {
+  .big-text-container {
+    margin-top: 0.5rem; /* Adjust margin */
+  }
+
+  .main-heading, .sub-heading {
+    font-size: 3.5rem; /* Adjust font size */
+  }
+
+  .mission-statement-container {
+    margin: 0.3rem auto; /* Adjust margin */
+    padding: 0.8rem; /* Adjust padding */
+  }
+
+  .mission-statement {
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .ellipses-container {
+    margin-top: 0.3rem; /* Adjust margin */
+  }
+
+  .launching-soon {
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+@media (max-width: 600px) {
+  .big-text-container {
+    margin-top: 0.5rem; /* Adjust margin */
+    
+  }
+
+  .main-heading, .sub-heading {
+    font-size: 2.5rem; /* Adjust font size */
+  }
+
+  .mission-statement-container {
+    margin: 0.3rem auto; /* Adjust margin */
+    padding: 0.8rem; /* Adjust padding */
+  }
+
+  .mission-statement {
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .ellipses-container {
+    margin-top: 0.3rem; /* Adjust margin */
+  }
+
+  .launching-soon {
+    font-size: 1.1rem; /* Adjust font size */
+  }
+
+}

@@ -1,0 +1,157 @@
+    .email-form {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 10vh; /* Reduced height to decrease spacing */
+    position: relative;
+    z-index: 2;
+  }
+  
+  .email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Reduced space between the input and the button */
+  }
+  
+  .email-input {
+    width: 400px; /* Adjust the width as needed */
+    
+    
+  }
+  .email-input input {
+    color: white; /* Change text color to white */
+  }
+  
+  .email-input .MuiOutlinedInput-root {
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 3px 6px rgba(253, 253, 253, 0.1); /* Box-shadow */
+  }
+  
+  .email-input .MuiOutlinedInput-notchedOutline {
+    border-width: 2px; /* Thicker border */
+    border-color: #CFD850 !important; /* Ensure the border color is applied */
+  }
+  
+  .email-input .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #CFD850 !important; /* Hover border color */
+  }
+  
+  .email-input .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #CFD850 !important; /* Focus border color */
+  }
+  
+  .email-input .MuiInputLabel-root {
+    color: #CFD850 !important; /* Label color */
+  }
+  
+  .email-input .MuiInputLabel-root.Mui-focused {
+    color: #CFD850 !important; /* Focused label color */
+  }
+  
+  
+  
+  .waitlist-button {
+    padding: 0.9rem 1.75rem;
+    background-color: #CFD850 !important;
+    color: #000000 !important;
+    border-radius: 15px !important; /* Rounded corners */
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1) !important; /* Box-shadow */
+      padding: 15px 25px !important; /* Increased padding for a bigger button */
+      font-size: 1rem !important; /* Increased font size */
+      min-width: 200px !important; /* Minimum width to ensure button is larger */
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+  }
+  
+  .waitlist-button:hover {
+    background-color: rgb(224, 255, 153) !important;
+  }
+  
+
+
+.modal-title {
+    font-size: 2.3rem; /* Equivalent to h4 */
+    font-weight: 500;
+    margin-top: 4rem; /* Adjust as needed */
+    text-align: center;
+    color: #ffffff;
+    
+    
+  }
+  
+  .modal-description {
+    font-size: 1.5rem; /* Equivalent to h5 */
+    margin-top: 1rem; /* Adjust as needed */
+    text-align: center;
+    color: #ffffff;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+
+/*
+
+breakpoints: 
+  600, 601, 768, 992, 1200
+
+
+*/
+
+@media only screen and (max-width: 600px) {
+  .email-container {
+    margin-top: 100px;
+    width: 100%; /* Make the container full width */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Align items to the start */
+    gap: 20px; /* Adjust space between items */
+  }
+
+  .email-input {
+    width: 100%; /* Make the input full width */
+  }
+
+  .waitlist-button {
+    padding: 0.5rem 1rem; /* Adjust padding */
+    font-size: 0.8rem !important; /* Adjust font size */
+    min-width: 150px !important; /* Adjust min-width */
+    width: auto; /* Allow the width to be determined by the content */
+  }
+
+}
+
+
+
+
+
+@media (max-width: 800px) {
+  .email-input {
+    width: 300px; /* Adjust width */
+  }
+
+  .waitlist-button {
+    padding: 0.8rem 1.5rem; /* Adjust padding */
+    font-size: 0.9rem !important; /* Adjust font size */
+    min-width: 180px !important; /* Adjust min-width */
+  }
+
+  .modal-title {
+    font-size: 2rem; /* Adjust font size */
+  }
+
+  .modal-description {
+    font-size: 1.2rem; /* Adjust font size */
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}

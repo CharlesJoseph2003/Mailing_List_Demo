@@ -1,0 +1,42 @@
+
+.footer-statement-container {
+    text-align: center;
+    margin: 0.1rem auto; /* Adjust as needed to move it lower */
+    max-width: 800px; /* Optional: to limit the width of the text block */
+    padding: 1rem; /* Optional: to add some padding around the text */
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Styling for the footer statement text */
+  .footer-statement {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    font-weight: 400; /* Normal font weight */
+    color: #ffffff; /* Adjust the color as needed */
+    line-height: 1.5; /* Adjust the line height for readability */
+    font-style: italic;
+  }
+  
+  
+@media (max-width: 800px) {
+  .footer-statement {
+    font-size: 1rem; /* Adjust font size */
+  }
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  @media (max-width: 600px) {
+    .footer-statement-container {
+      max-width: 600px /* Adjust font size */
+    }
+    
+    .footer-statement{
+      margin-top: 90px;
+
+    }
+  }

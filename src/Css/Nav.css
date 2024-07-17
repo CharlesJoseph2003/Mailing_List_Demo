@@ -1,0 +1,58 @@
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90px;
+    margin-top: 1.1rem;
+    z-index: 2; /* Ensure nav is above background image */
+    position: relative;
+  }
+  
+  
+  .navbar-links-container a {
+    margin-right: 3rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+  .primary-button {
+    padding: 0.9rem 1.75rem;
+    background-color: #CFD850;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+  }
+  
+  .primary-button:hover {
+    background-color: rgb(224, 255, 153);
+  }
+  
+  @media (max-width: 1000px) {
+    .navbar-links-container a {
+      margin-right: 1rem;
+      font-size: 1rem;
+    }
+    .primary-button {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .nav-logo-container {
+      max-width: 140px;
+    }
+    .navbar-links-container {
+      display: none;
+    }
+    .App {
+      max-width: 95vw;
+    }
+  }

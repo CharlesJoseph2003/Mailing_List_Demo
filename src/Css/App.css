@@ -1,0 +1,216 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 145%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.background-wrapper {
+  position: relative;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  background-color: #2B2F30;
+  /* Fallback background color */
+}
+
+.background-image {
+  position: absolute;
+  bottom: -10vh; /* Use vh for relative positioning */
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1; /* Ensure the background image is behind other elements */
+  opacity: 0.9; /* Adjust the opacity if needed */
+}
+
+.background-image-vec1 {
+  position: absolute;
+  bottom:3vh; /* Adjust as needed to move the image further down */
+  left: 140vh;
+  width: 35%;
+  height: auto;
+  z-index: 1; /* Ensure the background image is behind other elements */
+  opacity: 0.9; /* Adjust the opacity if needed */
+}
+
+.background-image-vec2 {
+  position: absolute;
+  bottom: 0; /* Adjust as needed to move the image further down */
+  left: 0;
+  width: 19%;
+  height: auto;
+  z-index: 1; /* Ensure the background image is behind other elements */
+  opacity: 0.9; /* Adjust the opacity if needed */
+}
+
+.background-image-vec3 {
+  position: absolute;
+  bottom: 0; /* Adjust as needed to move the image further down */
+  right: 0;
+  width: 60%;
+  height: auto;
+  z-index: 1; /* Ensure the background image is behind other elements */
+  opacity: 0.9; /* Adjust the opacity if needed */
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .background-image-vec1 {
+    top: -20rem;
+    /* bottom: -5vh; */
+    left: 135vh;
+    width: 35%;
+  }
+
+  .background-image-vec2 {
+    bottom: 30vh;
+    left: -15vh;
+    width: 20%;
+  }
+
+  .background-image-vec3 {
+    bottom: 5vh;
+    left: -15vh;
+    width: 50%;
+  }
+}
+
+
+/* @media (max-width: 2000px) {
+  .background-image-vec1 {
+    display:none
+  }
+
+  .background-image-vec2 {
+    display:none
+  }
+
+  .background-image-vec3 {
+    display:none;
+  }
+} */
+
+/* @media (max-width: 1000px) {
+  .background-image-vec1 {
+    bottom: 0;
+    left: 135vh;
+    width: 100%;
+  }
+
+  .background-image-vec2 {
+    bottom: 0;
+    left: 0;
+    width: 15%;
+  }
+
+  .background-image-vec3 {
+    bottom: 0;
+    right: 0;
+    width: 50%;
+  }
+} */
+
+@media (max-width: 1500px) {
+  .background-image-vec1 {
+    display:none
+  }
+
+  .background-image-vec2 {
+    display:none
+  }
+
+  .background-image-vec3 {
+    display:none
+  }
+}
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* @media (max-width: 1000px) {
+  img {
+    max-width: 100%;
+  }
+} */
+
+
+@media (max-width: 1000px) {
+  .background-image {
+    max-width: 100%;
+  }
+}
+
+.App {
+  min-height: 100vh;
+  width: 85vw;
+  max-width: 1900px;
+  margin: 0rem auto;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #2B2F30;
+  ;
+}
+
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 40px;
+}
