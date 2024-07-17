@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba407439.css",
+    "main.css": "/static/css/main.f63c7891.css",
     "main.js": "/static/js/main.037d990b.js",
     "static/media/Interview_Logo.png": "/static/media/Interview_Logo.fa979cf32d0bb7d78be8.png",
     "static/media/Offer_Logo.png": "/static/media/Offer_Logo.609d2ead0d0ce52f24c4.png",
@@ -13,11 +13,11 @@
     "static/media/Vector 13.svg": "/static/media/Vector 13.701488c544c55f6810f30301b3ed2389.svg",
     "index.html": "/index.html",
     "static/media/Rectangle 2.svg": "/static/media/Rectangle 2.2edbfcf34218b69dbc4e2bb0d679ccca.svg",
-    "main.ba407439.css.map": "/static/css/main.ba407439.css.map",
+    "main.f63c7891.css.map": "/static/css/main.f63c7891.css.map",
     "main.037d990b.js.map": "/static/js/main.037d990b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba407439.css",
+    "static/css/main.f63c7891.css",
     "static/js/main.037d990b.js"
   ]
 }
