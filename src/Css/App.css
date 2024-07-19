@@ -1,51 +1,46 @@
-body, html {
+html, body {
   margin: 0;
   padding: 0;
-  height: 145%;
+  height: 100%;
+  max-width: 100%;
   overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-y: visible; /* Allow vertical scrolling */
+  background-color: #2B2F30; /* Set background color */
 }
 
-@media (max-width: 600px)
-{
-  body, html{
-    height:160%
-  }
-
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-
-@media (min-width: 601px) and (max-width: 768px)
-{
-  body, html{
-    height:150%
-  }
-
-}
-
-
-@media (min-width: 769px) and (max-width: 992px)
-{
-  body, html{
-    height:150%
-  }
-
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 10vh); /* Ensure the app takes at least the full viewport height minus the bottom margin */
+  width: 85vw;
+  max-width: 1900px;
+  margin: 0 auto;
+  padding-bottom: 25vh; /*Add padding at the bottom to ensure content is not cut off */
 }
 
 
-
-@media (min-width: 993px) and (max-width: 1200px)
-{
-  body, html{
-    height:150%
-  }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
 }
+
+
+
+
 
 .background-wrapper {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  min-height: 100vh; /* Ensure it covers the full viewport height */
-  background-color: #2B2F30;
-  /* Fallback background color */
+  flex: 1; /* Ensure it covers the full available height */
+  background-color: #2B2F30; /* Fallback background color */
 }
 
 .background-image {
@@ -57,6 +52,16 @@ body, html {
   z-index: 1; /* Ensure the background image is behind other elements */
   opacity: 0.9; /* Adjust the opacity if needed */
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+
+
 
 .background-image-vec1 {
   position: absolute;
@@ -88,11 +93,6 @@ body, html {
   opacity: 0.9; /* Adjust the opacity if needed */
 }
 
-
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 @media (max-width: 800px) {
   .background-image-vec1 {
@@ -168,18 +168,6 @@ img {
 
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif !important;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 /* @media (max-width: 1000px) {
   img {
     max-width: 100%;
@@ -191,21 +179,6 @@ img {
   .background-image {
     max-width: 100%;
   }
-}
-
-.App {
-  min-height: 100vh;
-  width: 85vw;
-  max-width: 1900px;
-  margin: 0rem auto;
-}
-
-body {
-  max-width: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  background-color: #2B2F30;
-  ;
 }
 
 

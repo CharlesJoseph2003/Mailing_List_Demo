@@ -17,12 +17,13 @@
     font-style: italic;
   }
   
-  
-@media (max-width: 800px) {
-  .footer-statement {
-    font-size: 1rem; /* Adjust font size */
+
+  @media (max-width: 800px) {
+    .footer-statement {
+      font-size: 1rem; 
+    }
   }
-  }
+
   * {
     padding: 0;
     margin: 0;
@@ -32,11 +33,11 @@
 
   @media (max-width: 600px) {
     .footer-statement-container {
-      max-width: 600px /* Adjust font size */
+      max-width: 600px;
     }
     
-    .footer-statement{
+    .footer-statement {
       margin-top: 90px;
-
     }
   }
+
