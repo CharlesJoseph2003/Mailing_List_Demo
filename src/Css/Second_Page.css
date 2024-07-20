@@ -9,7 +9,7 @@
 .second-page-title-container {
   text-align: center;
   position: relative;
-  top: 55rem; /* Adjust as needed to move it lower */
+  top: 0rem; /* Adjust as needed to move it lower */
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
@@ -26,7 +26,7 @@
 .second-page-text-container {
   text-align: center;
   position: relative;
-  top: 60rem; /* Adjust to align with the title */
+  top: 0rem; /* Adjust to align with the title */
   left: 50%;
   transform: translateX(-50%);
   /* max-width: 1000px; Optional: to limit the width of the text block */
@@ -41,119 +41,10 @@
   line-height: 1.5; /* Adjust the line height for readability */
 }
 
-.second-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-.rectangle-container {
-  display: flex;
-  flex-wrap: wrap; /* Allow items to wrap onto the next line */
-  align-items: flex-start; /* Align items at the start of the container */
-  justify-content: space-around; /* Maintain spacing around items */
-  position: relative; /* Adjust if necessary, might not need 'absolute' */
-  z-index: 2;
-  width: 100%;
-  /* max-width: 1200px; Or adjust based on your layout needs */
-}
+.image-container{
+position: relative;
+top: 3rem;
 
-.rectangle-container img {
-  width: 100%;
-  max-width: 250px; /* Maximum size each image can reach */
-  height: auto; /* Maintains aspect ratio */
-  transition: transform 0.3s ease; /* Optional: adds animation on resize */
-}
-
-.offer {
-  flex-grow: 0.5; /* Allows the images to grow and fill the space */
-  padding: 10px; /* Adds some space around the images */
-}
-
-/* Optionally, add hover effects to scale images */
-.rectangle-container img:hover {
-  transform: scale(1.1); /* Makes the image larger when hovered */
-}
-
-.image-container {
-  width: 50%; /* Each container takes up half the width of the .rectangle-container */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-  box-sizing: border-box; /* Includes padding in the width calculation */
-  min-height: 220px; 
-  /* width: auto; Allow the width to be determined by the content */
-  /* height: auto */
-}
-
-.image-container img {
-  width: 100%;
-  max-width: 250px;
-  /* height: auto; */
-  transition: transform 0.3s ease;
-}
-
-.image-text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Centers content vertically */
-  align-items: center; /* Aligns content horizontally */
-  height: 100%; /* Take full height of its parent */
-}
-
-.image-text {
-  margin-top: 15px; /* Space between the lines of text */
-  color: white; /* Text color */
-  font-size: 18px; /* Adjust as needed */
-  text-align: center; /* Center the text under the image */
-  font-weight: 500;
-  margin: 5px 0;
-}
-
-.special-spacing{
-
-  height: 20px;
-}
-
-.special-spacing-2{
-
-  height: 10px;
-}
-
-
-
-@media (max-width: 600px){
-  .second-page-title-container {
-    top: 0rem; /* Adjust top positioning */
-    /* align-items: center; */
-  }
-
-  .second-page-title {
-    font-size: 1.8rem; /* Adjust font size */
-  }
-
-  .second-page-text-container {
-    top: 0rem; /* Adjust top positioning */
-  }
-
-  .second-page-text {
-    font-size: 1.2rem; /* Adjust font size */
-  }
-
-  .rectangle-container {
-    top: 0rem; /* Adjust as needed */
-
-    
-    /* align-items: center; */
-    /* bottom: -150vh; Adjust as needed */
-    /* max-width: 10% */
-  }
-
-  .image-text {
-    font-size: 10px; /* Adjust as needed */
-    margin-right: 2em;
-  }
 
 }
 
@@ -163,105 +54,3 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
-@media (min-width: 601px) and (max-width: 768px) {
-  .second-page-title-container {
-    top: 1.75rem; /* Adjust top positioning */
-  }
-
-  .second-page-title {
-    font-size: 2rem; /* Adjust font size */
-  }
-
-  .second-page-text-container {
-    top:1.5rem; /* Adjust top positioning */
-  }
-
-  .second-page-text {
-    font-size: 1.2rem; /* Adjust font size */
-  }
-
-  .rectangle-container {
-    top: 2rem; /* Adjust as needed */
-  }
-
-  .image-container {
-    width: 40%; /* Full width on small devices */
-  }
-
-
-  .image-text {
-    font-size: 12px; /* Adjust as needed */
-  }
-}
-
-
-@media (min-width: 769px) and (max-width: 992px) {
-  .second-page-title-container {
-    top: 1.75rem; /* Adjust top positioning */
-  }
-
-  .second-page-title {
-    font-size: 2rem; /* Adjust font size */
-  }
-
-  .second-page-text-container {
-    top:1.5rem; /* Adjust top positioning */
-  }
-
-  .second-page-text {
-    font-size: 1.2rem; /* Adjust font size */
-  }
-
-  .rectangle-container {
-    top: 0rem; /* Adjust as needed */
-  }
-
-  .image-container {
-    width: 44%; /* Full width on small devices */
-  }
-
-  .image-text {
-    font-size: 12px; /* Adjust as needed */
-  }
-}
-
-
-@media (min-width: 993px) and (max-width: 1200px) {
-  .second-page-title-container {
-    top: 1.75rem; /* Adjust top positioning */
-  }
-
-  .second-page-title {
-    font-size: 2rem; /* Adjust font size */
-  }
-
-  .second-page-text-container {
-    top:1.5rem; /* Adjust top positioning */
-  }
-
-  .second-page-text {
-    font-size: 1.2rem; /* Adjust font size */
-  }
-
-  .rectangle-container {
-    top: 0rem; /* Adjust as needed */
-  }
-
-  .image-container {
-    width: 44%; /* Full width on small devices */
-  }
-
-  .image-text-container{
-    flex-direction: row;
-
-  }
-
-  .image-text {
-    font-size: 12px; /* Adjust as needed */
-  }
-}
-
-
-
-

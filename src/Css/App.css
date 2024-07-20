@@ -16,7 +16,7 @@ img {
 .App {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 25vh); /* Ensure the app takes at least the full viewport height minus the bottom margin */
+  min-height: 100vh; /* Ensure the app takes at least the full viewport height minus the bottom margin */
   width: 85vw;
   max-width: 1900px;
   margin: 0 auto;
@@ -30,10 +30,6 @@ img {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif !important;
 }
-
-
-
-
 
 .background-wrapper {
   display: flex;
@@ -63,35 +59,6 @@ img {
 
 
 
-.background-image-vec1 {
-  position: absolute;
-  bottom:3vh; /* Adjust as needed to move the image further down */
-  left: 140vh;
-  width: 35%;
-  height: auto;
-  z-index: 1; /* Ensure the background image is behind other elements */
-  opacity: 0.9; /* Adjust the opacity if needed */
-}
-
-.background-image-vec2 {
-  position: absolute;
-  bottom: 0; /* Adjust as needed to move the image further down */
-  left: 0;
-  width: 19%;
-  height: auto;
-  z-index: 1; /* Ensure the background image is behind other elements */
-  opacity: 0.9; /* Adjust the opacity if needed */
-}
-
-.background-image-vec3 {
-  position: absolute;
-  bottom: 0; /* Adjust as needed to move the image further down */
-  right: 0;
-  width: 60%;
-  height: auto;
-  z-index: 1; /* Ensure the background image is behind other elements */
-  opacity: 0.9; /* Adjust the opacity if needed */
-}
 
 
 @media (max-width: 800px) {
