@@ -1,6 +1,6 @@
 import React from 'react';
 import Rectangle_2 from "../Assets/Rectangle 2.svg";
-import ScrollButton from './ScrollButton'; //Import the ScrollButton component
+import ScrollButton from './ScrollButton'; 
 
 const Text = () => {
   return (

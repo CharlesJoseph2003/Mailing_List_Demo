@@ -5,7 +5,7 @@ import './/Css/App.css';
 import './/Css/Email.css';
 import './/Css/Footer.css';
 import './/Css/Nav.css';
-import './/Css/Scroll.css';
+// import './/Css/Scroll.css';
 import './/Css/Second_Page.css';
 import './/Css/Text.css';
 

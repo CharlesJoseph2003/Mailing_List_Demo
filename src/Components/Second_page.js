@@ -1,8 +1,6 @@
 import React from 'react';
 import Plot from "../Assets/Interns_Plot2.png";
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 const SecondPage = () => {
   return (
     <div>  {/* All content is now wrapped in a single div */}

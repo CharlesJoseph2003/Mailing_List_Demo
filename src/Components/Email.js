@@ -10,14 +10,6 @@ import { FaDiscord } from 'react-icons/fa6';
 // Username: interns.fyi24@gmail.com
 // Password: moneymoves
 
-// Mailchimp Login:
-// Username: interns.fyi24@gmail.com
-// Password: Moneymoves2024*
-
-// Mailchimp API:
-// Api_key: c1f52a9795e47eeaa9d97248d0ead2f1-us13
-// Audience_ID: 6f7951fb4d
-
 const Email = () => {
   const [open, setOpen] = useState(false);
   const [address, setEmail] = useState({
@@ -32,7 +24,7 @@ const Email = () => {
     try {
       if (address.email.includes('@')) {
         console.log('Email submitted:', address);
-        await axios.post('http://localhost:8800/user', address);
+        await axios.post("https://mailing-list-server-123b2b48a9d1.herokuapp.com/", address);
         setOpen(true);
       } else {
         console.log('Invalid email');

@@ -44,6 +44,9 @@
 .image-container{
 position: relative;
 top: 3rem;
+/* max-width: 80rem;
+min-height: 10rem; */
+
 }
 
 * {
@@ -53,12 +56,33 @@ top: 3rem;
   font-family: "Poppins", sans-serif;
 }
 
+
+
+
 @media (max-width: 600px) {
   .image-container{
     width: 400px;
     height:15rem;
+    /* align-items: center; */
     margin-left: -2.5rem;
 
   }
   
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+  .image-container {
+    width: 50rem;
+    height: 45rem;
+    margin-left: -2.5rem;
+  }
+}
+
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .image-container {
+    width: 60rem;
+    height: 50rem;
+    margin-left: -2.5rem;
+  }
 }
