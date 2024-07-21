@@ -130,24 +130,20 @@
       width: auto; /* Allow the width to be determined by the content */
 
     }
-
-    .modal-title {
-      font-size: 2rem; /* Adjust font size */
-    }
   
     .modal-description {
-      font-size: 1.2rem; /* Adjust font size */
+      font-size: 1rem!important; /* Adjust font size */
     }
   
     .modal-content{
-      width: 100px;
-      height: 200px;
+      width: 370px!important;
+      height: 250px!important;
     }
 
     .modal-title{
-      margin-top: -3rem;
-      font-size: 1.5rem;
-      font-weight: 500;
+      margin-top: -4.2rem!important;
+      font-size: 1.2rem!important;
+      font-weight: 500!important;
 
     }
     

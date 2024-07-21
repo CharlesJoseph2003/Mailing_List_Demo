@@ -52,3 +52,13 @@ top: 3rem;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+@media (max-width: 600px) {
+  .image-container{
+    width: 400px;
+    height:15rem;
+    margin-left: -2.5rem;
+
+  }
+  
+}
