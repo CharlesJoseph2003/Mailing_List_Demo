@@ -50,14 +50,18 @@
     width: 12px; /* Adjust size as needed */
     height: 12px; /* Adjust size as needed */
     margin: 0 8px; /* Adjust spacing as needed */
+    position: relative;
+    top: -0.5rem;
   }
   
   .launching-soon {
     font-size: 1.5rem; /* Adjust font size as needed */
+    top:-0.5rem;
     color: #CFD850; /* Adjust color as needed */
     font-weight: 400; /* Normal font weight */
     margin: 0 10px; /* Adjust spacing as needed */
     font-style: italic;
+    position: relative;
   }
   
 

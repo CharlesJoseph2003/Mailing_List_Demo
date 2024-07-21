@@ -5,7 +5,7 @@
     max-width: 800px; /* Optional: to limit the width of the text block */
     padding: 1rem; /* Optional: to add some padding around the text */
     position: relative;
-    z-index: 2;
+    /* z-index: 1; */
   }
   
   /* Styling for the footer statement text */
