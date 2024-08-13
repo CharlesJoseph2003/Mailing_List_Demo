@@ -73,7 +73,7 @@ const Email = () => {
             Thank you for joining our waitlist!
           </div>
           <div id="modal-modal-description" className="modal-description">
-            We'll let you know when we launch.
+            In the meantime, join our discord for updates.
           </div>
           <a
             href="https://discord.gg/duTNTruE9p"
