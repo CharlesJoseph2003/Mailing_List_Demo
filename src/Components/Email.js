@@ -9,7 +9,7 @@ import { FaDiscord } from 'react-icons/fa6';
 // Gmail login:
 // Username: interns.fyi24@gmail.com
 // Password: moneymoves
-
+//new push
 const Email = () => {
   const [open, setOpen] = useState(false);
   const [address, setEmail] = useState({
