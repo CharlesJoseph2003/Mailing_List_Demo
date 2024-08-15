@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-links-container">
-        <a href="https://discord.gg/duTNTruE9p" className="primary-button">
+        <a href="https://discord.gg/xSsethyupn" className="primary-button">
           Join our Discord Server
         </a>
       </div>
