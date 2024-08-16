@@ -76,7 +76,7 @@ const Email = () => {
             Join our discord for updates
           </div>
           <a
-            href="https://discord.gg/xSsethyupn"
+            href="https://discord.gg/xDYcQgUGbp"
             target="_blank"
             rel="noopener noreferrer"
           >
