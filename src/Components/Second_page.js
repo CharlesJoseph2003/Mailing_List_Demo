@@ -11,7 +11,7 @@ const SecondPage = () => {
       <div className='second-page-text-container'>
         <h3 className='second-page-text'>
           Every company’s internship recruitment process is different. 
-          With our software, seamlessly track open opportunities and gain smart insights during each application phase.
+          With our application, seamlessly track open opportunities and gain smart insights during each application phase.
         </h3>
         <div className='image-container'>
           <img src={Plot} alt='Plot' className='plot'/>
